@@ -1,0 +1,401 @@
+/*-------------------------------------Backgrounds------------------------------------*/
+/*--------------------------------------+ mobile--------------------------------------*/
+body {
+    background-color:rgb(250, 248, 248);
+}
+
+/*--header + nav--*/
+.opening-container {
+    background-image: url("images/image-hero-desktop.jpg");
+    background-position: contain;
+    background-repeat: no-repeat;
+    height: 25rem;
+    min-width: 100%;
+}
+@media (max-width: 768px) {
+    .opening-container {
+        background-image: url("images/image-hero-desktop.jpg");
+        background-size: cover;
+        background-position: contain;
+        background-repeat: no-repeat;
+        min-height: 70vh;
+        min-width: 100%;
+    }
+}
+@media (max-width: 576px) {
+    .opening-container {
+        background-image: url("images/image-hero-mobile.jpg");
+        background-size: cover;
+        background-position: contain;
+        background-repeat: no-repeat;
+        min-height: 50vh;
+        min-width: 100%;
+    }
+}
+/*--dropdown menu background + style--*/
+@media (max-width: 768px) {
+    .collapse, .nav-bar-collapse {
+        background-color: rgb(255, 255, 255);
+        background-position: 0 210%;
+        border-radius: 10px;
+    }
+}
+
+/*----main col position----*/
+.first-col {
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -6%;
+}
+.second-col {
+    border-radius: 10px;
+}
+/*----right border for stats----*/
+.border-col {
+    border-left: 1px solid rgb(211, 208, 208);
+    height: 46px;
+}
+@media (max-width: 768px) {
+    .border-col {
+        border-top: 1px solid rgb(211, 208, 208);
+        height: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+.stats-bar {
+    background-color: hsl(176, 50%, 47%);
+    border-right: 11vw solid rgb(235, 231, 231);
+    height: 10px;
+    border-radius: 15px;
+}
+.third-col {
+    border-radius: 10px;
+}
+
+/*-------------------------------------typography-------------------------------------*/
+/*-----------------------------------styles + mobile----------------------------------*/
+/*--nav--*/
+.nav-font {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 13px;
+    color: #ffffff;
+}
+@media (max-width: 768px) {
+    .nav-font {
+        color: black;
+        font-size: 18px;
+        font-weight: 500;
+        border-bottom: 1px solid rgb(204, 204, 204);
+    }
+}
+
+/*--1st col--*/
+.main-h2-font {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(0, 0, 0)
+}
+@media (max-width: 300px) {
+    .main-h2-font {
+        font-family: 'Commissioner', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        color: hsl(0, 0, 0)
+    }
+}
+.main-p-font {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(0, 0%, 48%);
+}
+@media (max-width: 300px) {
+    .main-p-font {
+        font-family: 'Commissioner', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        color: hsl(0, 0%, 48%);
+    }
+}
+.project-button {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0px 30px 0px 30px;
+    background-color:  hsl(176, 50%, 47%);
+}
+@media (max-width: 576px) {
+    .project-button {
+        font-family: 'Commissioner', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 17px 22px 17px 22px;
+        background-color:  hsl(176, 50%, 47%);
+        line-height: 12px;
+    }
+}
+@media (max-width: 300px) {
+    .project-button {
+        font-family: 'Commissioner', sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        padding: 10px 22px 10px 22px;
+        background-color:  hsl(176, 50%, 47%);
+        line-height: 12px;
+    }
+}
+
+.bookmark-icon {
+    height: 45px;
+    width: 65px;
+}
+@media (max-width: 576px) {
+    .bookmark-icon {
+        height: 45px;
+        width: 50px;
+    }
+}
+.bookmark-button {
+    background-color: rgb(235, 231, 231);
+    font-family: 'Commissioner', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(0, 0%, 48%);
+    padding: 0 26px 0 0;
+}
+@media (max-width: 576px) {
+    .bookmark-button {
+        background-color: rgb(235, 231, 231);
+        font-size: 0px;
+        color: hsl(0, 0%, 48%);
+        padding: 0;    
+    }
+}
+.bookmark-button:active {
+    background:hsl(175, 29%, 65%);
+}
+.bookmark-button:focus {
+    background:hsl(175, 29%, 65%);
+}
+
+/*--2nd col--*/
+.backer-font {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    color: hsl(0, 0%, 48%);
+}
+
+/*--3rd col--*/
+.main-h6-font {
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 700;
+}
+.main-h6-font-2 {
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 700;
+    color: rgba(7, 7, 7, 0.438);
+}
+.main-p-font-2 {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: hsla(0, 0%, 48%, 0.443);
+}
+.pledge-font {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(176, 50%, 47%)
+}
+.pledge-font-2 {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(175, 29%, 65%)
+}
+.main-h2-font-2 {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.374)
+}
+.lower-col-button-1 {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 0px 28px 0px 28px;
+    background-color:  hsl(176, 50%, 47%);
+}
+@media (max-width: 300px) {
+    .lower-col-button-1, .lower-col-button-2 {
+        font-family: 'Commissioner', sans-serif;
+        font-size: 10px;
+        line-height: 10px;
+        font-weight: 500;
+        padding: 0px 20px 0px 20px;
+        background-color:  hsl(176, 50%, 47%);
+    }
+}
+.lower-col-button-2 {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 0px 30px 0px 30px;
+    background-color:  hsl(180, 5%, 78%);
+}
+
+/*----------Modal styles----------*/
+/*--modal position--*/
+#exampleModalToggle {
+    position: fixed;
+    width: 600px;
+    top: 40px;
+    left: calc(50% - 300px);
+    bottom: 40px;
+    border-radius: 15px;
+}
+@media (max-width: 576px) {
+    #exampleModalToggle {
+        position: fixed;
+        width: 90%;
+        top: 40px;
+        left: 5%;
+        bottom: 60px;
+        border-radius: 15px;
+    }
+}
+.radio-button {
+    border: 2px solid hsl(176, 50%, 47%);
+    height: 20px;
+    width: 20px;
+}
+.modal-p-font {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(0, 0%, 48%);
+}
+.modal-p-font-2 {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: hsla(0, 0%, 48%, 0.47);
+}
+.modal-h3-font {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+.modal-h3-font-2 {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(42, 42, 42, 0.411);
+}
+
+
+/*--------------------------------------icons-------------------------------------------*/
+/*--------------------------------------------------------------------------------------*/
+/*--M icon position--*/
+.mastercraft-icon {
+    margin-top: -7%;
+}
+.tick-image {
+    height: 15%;
+    width: 15%;
+}
+
+/*--------------------------------------functions---------------------------------------*/
+/*---------------------------------show / hide content----------------------------------*/
+.hide {
+    display: none;
+}
+
+/*--text area dollar sign--*/
+.area-text {
+    position: relative;
+    display: block;
+}
+.area-text::before {
+    content: 'myFixedText:\>';
+    position: absolute;
+    top: 16px;
+    left: 4px;
+    z-index: 99;
+    font-size: 14px;
+    font-family: 'Commissioner', sans-serif;
+    color: hsl(0, 0%, 48%);
+}
+/*--text area button--*/
+.pledge-amount-button {
+    resize: none;
+    overflow: hidden;
+    height: 38px;
+    width: 80px;
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid hsl(176, 50%, 47%);
+    padding-left: 18px;
+    padding-top: 8px;
+    font-family: 'Commissioner', sans-serif;
+    color: black;
+    font-size: 12px;
+}
+@media (max-width: 300px) {
+    .pledge-amount-button {
+        resize: none;
+        overflow: hidden;
+        height: 32px;
+        width: 60px;
+        border-radius: 25px;
+        outline: none;
+        border: 2px solid hsl(176, 50%, 47%);
+        padding-top: 6px;
+        padding-left: 12px;
+        font-family: 'Commissioner', sans-serif;
+        color: black;
+        font-size: 10px;    
+    }
+}
+.pledge-continue-button {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 10px 20px 10px 20px;
+    background-color: hsl(176, 72%, 28%);
+}
+@media (max-width: 300px) {
+    .pledge-continue-button {
+        font-family: 'Commissioner', sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        padding: 8px 10px 8px 10px;
+        background-color: hsl(176, 72%, 28%);    
+    }
+}
+.modal-got-it-button {
+    font-family: 'Commissioner', sans-serif;
+    height: 15%;
+    width: 20%;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    background-color:  hsl(176, 72%, 28%);
+}
+@media (max-width: 300px) {
+    .modal-got-it-button {
+        font-family: 'Commissioner', sans-serif;
+        height: 15%;
+        width: 30%;
+        font-size: 12px;
+        font-weight: 500;
+        border: none;
+        padding: 10px 30px 10px 30px;
+        background-color:  hsl(176, 72%, 28%);    
+    }
+}
